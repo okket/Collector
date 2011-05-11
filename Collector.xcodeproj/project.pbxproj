@@ -39,20 +39,20 @@
 		278AE110137AE4C900177CEB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		278AE112137AE4C900177CEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		278AE114137AE4C900177CEB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		278AE118137AE4C900177CEB /* Collector-Info.plist */ = {isa = PBXFileReference; path = "Collector-Info.plist"; sourceTree = "<group>"; };
+		278AE118137AE4C900177CEB /* Collector-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Collector-Info.plist"; sourceTree = "<group>"; };
 		278AE11A137AE4C900177CEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		278AE11C137AE4C900177CEB /* Collector-Prefix.pch */ = {isa = PBXFileReference; path = "Collector-Prefix.pch"; sourceTree = "<group>"; };
+		278AE11C137AE4C900177CEB /* Collector-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Collector-Prefix.pch"; sourceTree = "<group>"; };
 		278AE11D137AE4C900177CEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		278AE11F137AE4C900177CEB /* CollectorAppDelegate.h */ = {isa = PBXFileReference; path = CollectorAppDelegate.h; sourceTree = "<group>"; };
+		278AE11F137AE4C900177CEB /* CollectorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectorAppDelegate.h; sourceTree = "<group>"; };
 		278AE120137AE4C900177CEB /* CollectorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectorAppDelegate.m; sourceTree = "<group>"; };
 		278AE123137AE4C900177CEB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		278AE125137AE4C900177CEB /* CollectorViewController.h */ = {isa = PBXFileReference; path = CollectorViewController.h; sourceTree = "<group>"; };
+		278AE125137AE4C900177CEB /* CollectorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectorViewController.h; sourceTree = "<group>"; };
 		278AE126137AE4C900177CEB /* CollectorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectorViewController.m; sourceTree = "<group>"; };
 		278AE129137AE4C900177CEB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CollectorViewController.xib; sourceTree = "<group>"; };
 		278AE130137AE4C900177CEB /* CollectorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		278AE138137AE4C900177CEB /* CollectorTests-Info.plist */ = {isa = PBXFileReference; path = "CollectorTests-Info.plist"; sourceTree = "<group>"; };
+		278AE138137AE4C900177CEB /* CollectorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CollectorTests-Info.plist"; sourceTree = "<group>"; };
 		278AE13A137AE4C900177CEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		278AE13C137AE4C900177CEB /* CollectorTests-Prefix.pch */ = {isa = PBXFileReference; path = "CollectorTests-Prefix.pch"; sourceTree = "<group>"; };
+		278AE13C137AE4C900177CEB /* CollectorTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CollectorTests-Prefix.pch"; sourceTree = "<group>"; };
 		278AE13D137AE4C900177CEB /* CollectorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectorTests.h; sourceTree = "<group>"; };
 		278AE13F137AE4C900177CEB /* CollectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectorTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
