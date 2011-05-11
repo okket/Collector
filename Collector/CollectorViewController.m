@@ -10,8 +10,26 @@
 
 @implementation CollectorViewController
 
+- (void)updateUI
+{
+    totalNumbers.text = [NSString stringWithFormat:@"%d", model.totalNumberCount];
+    totalStrings.text = [NSString stringWithFormat:@"%d", model.totalStringCount];
+}
+
+- (IBAction)collect:(UIButton *)sender
+{
+    double doubleValue = [sender.titleLabel.text doubleValue];
+    if (doubleValue) {
+        [model collect:[NSNumber numberWithDouble:doubleValue]];
+    } else {
+        [model collect:sender.titleLabel.text];
+    }
+    [self updateUI];
+}
+
 - (void)dealloc
 {
+    [model release];
     [super dealloc];
 }
 

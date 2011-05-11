@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Collector.h"
 
 @interface CollectorViewController : UIViewController {
-    
+    Collector *model;
+    IBOutlet UILabel *totalStrings;
+    IBOutlet UILabel *totalNumbers;
 }
+
+- (IBAction)collect:(UIButton *)sender;
 
 @end

@@ -22,6 +22,7 @@
 		278AE13B137AE4C900177CEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 278AE139137AE4C900177CEB /* InfoPlist.strings */; };
 		278AE13E137AE4C900177CEB /* CollectorTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 278AE13D137AE4C900177CEB /* CollectorTests.h */; };
 		278AE140137AE4C900177CEB /* CollectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 278AE13F137AE4C900177CEB /* CollectorTests.m */; };
+		278AE14B137AE71E00177CEB /* Collector.m in Sources */ = {isa = PBXBuildFile; fileRef = 278AE14A137AE71E00177CEB /* Collector.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		278AE13C137AE4C900177CEB /* CollectorTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CollectorTests-Prefix.pch"; sourceTree = "<group>"; };
 		278AE13D137AE4C900177CEB /* CollectorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectorTests.h; sourceTree = "<group>"; };
 		278AE13F137AE4C900177CEB /* CollectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectorTests.m; sourceTree = "<group>"; };
+		278AE149137AE71E00177CEB /* Collector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Collector.h; sourceTree = "<group>"; };
+		278AE14A137AE71E00177CEB /* Collector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Collector.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				278AE125137AE4C900177CEB /* CollectorViewController.h */,
 				278AE126137AE4C900177CEB /* CollectorViewController.m */,
 				278AE128137AE4C900177CEB /* CollectorViewController.xib */,
+				278AE149137AE71E00177CEB /* Collector.h */,
+				278AE14A137AE71E00177CEB /* Collector.m */,
 				278AE117137AE4C900177CEB /* Supporting Files */,
 			);
 			path = Collector;
@@ -266,6 +271,7 @@
 				278AE11E137AE4C900177CEB /* main.m in Sources */,
 				278AE121137AE4C900177CEB /* CollectorAppDelegate.m in Sources */,
 				278AE127137AE4C900177CEB /* CollectorViewController.m in Sources */,
+				278AE14B137AE71E00177CEB /* Collector.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
