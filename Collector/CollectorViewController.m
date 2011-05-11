@@ -18,6 +18,7 @@
 
 - (IBAction)collect:(UIButton *)sender
 {
+    if (!model) model = [[Collector alloc] init];
     double doubleValue = [sender.titleLabel.text doubleValue];
     if (doubleValue) {
         [model collect:[NSNumber numberWithDouble:doubleValue]];
